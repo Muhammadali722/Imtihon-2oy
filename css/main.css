@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 0;
+}
+/* Default Light Mode Styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: white;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.Papers{
+    background-image: url(../imeges/papers-images.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.Process{
+    background-image: url(../imeges/process-back-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
